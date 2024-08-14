@@ -8,5 +8,6 @@ int main() {
     cout << "4. Make Bid" << endl;  
     cout << "5. Wallet" << endl;  
     cout << "6. Continue" << endl;
+    cout << "6. Test" << endl;
     return 0; 
 }
