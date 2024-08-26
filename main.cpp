@@ -38,9 +38,6 @@ int main() {
         case 6:
             cout << "Continue Trading" <<endl;
             break;
-        case 7:
-            cout << "Continue Trading" <<endl;
-            break;
         default:
             cout << "Wrong Input. Enter 1-6" <<endl;
             break;
