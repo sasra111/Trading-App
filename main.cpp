@@ -10,6 +10,7 @@ int main() {
         cout << "4. Make Bid" << endl;  
         cout << "5. Wallet" << endl;  
         cout << "6. Continue" << endl; 
+        cout << "7. Exit" << endl; 
 
         cout<<"===============" << endl;
         cout<<"Type in 1-6 : " ;
@@ -38,6 +39,9 @@ int main() {
         case 6:
             cout << "Continue Trading" <<endl;
             break;
+        case 7:
+            cout << "Exiting" <<endl;
+            break;
         default:
             cout << "Wrong Input. Enter 1-6" <<endl;
             break;
@@ -45,6 +49,6 @@ int main() {
         cout << "" << endl;
 
     }
-    while (userOption);
+    while (userOption!=7);
     return 0;
 }
